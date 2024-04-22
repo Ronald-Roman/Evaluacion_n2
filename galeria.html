@@ -11,9 +11,9 @@
 
   <body class="container">
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: bisque; font-size: 20px;">
+        <nav class="bg-warning-subtle navbar navbar-expand-lg bg-body-tertiary" style= "font-size: 20px;">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"> <img src="imagenes/Logo.jpeg"> </a>
+              <a class="navbar-brand" href="index.html"> <img src="imagenes/Logo.jpeg" id="logo"> </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -29,16 +29,24 @@
     </header>
 
 
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" >
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="imagenes/botilleria.jpeg" class="d-block w-100" style="height: 300px;"  alt="Imagen de Seguridad sitio web">
           </div>
           <div class="carousel-item">
             <img src="imagenes/botilleria 2.JPEG" class="d-block w-100" style="height: 300px; width: 100% !important;"  alt="Imagen de Seguridad sitio web">
           </div>
-        </div> 
-    </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
 
 

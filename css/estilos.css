@@ -1,13 +1,18 @@
+
 .container{
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 }
 
+#logo{
+    width: 8rem;
+    height: 7rem;
+}
 
 footer{
     text-align: center;
     float: none;
-    padding-top: 100%;
+    margin-bottom: 0;
 }
 
 
@@ -15,8 +20,7 @@ footer{
     padding-top: 5%;
     padding-bottom: 5%;
     margin-top: 10%;
-    border-color: black;
-    border: inset;
+    
     border-width: 5px;
     padding-left: 25%;    
     padding-right: 25%;
